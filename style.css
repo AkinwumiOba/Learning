@@ -1,0 +1,77 @@
+@import url("./assets/fonts/Figtree-VariableFont_wght.ttf");
+@import url("./assets/fonts/Figtree-Italic-VariableFont_wght.ttf");
+
+body {
+  background-color: yellow;
+  /* width: 100vh
+  height: 100vh; */
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+/* @font-face {
+  font-family: FigTree;
+  src: url(./assets/fonts/Figtree-Italic-VariableFont_wght.ttf);
+} */
+
+.box {
+  background-color: white;
+  border: solid black 2px;
+  text-align: center;
+  border-radius: 25px;
+  padding-inline: 20px;
+  padding-block: 30px;
+  width: 340px;
+  box-shadow: black 8px 5px;
+}
+
+.main {
+  border-radius: 15px;
+  width: 400;
+}
+
+.texts {
+  text-align: left;
+}
+
+.learning {
+  background-color: yellow;
+  padding: 6px;
+  width: 80px;
+  border-radius: 5px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.publish {
+  font-size: small;
+  font-weight: 700;
+}
+
+.profile {
+  display: flex;
+  margin-top: 20x;
+  gap: 20px;
+  padding-top: 30px;
+}
+
+.dp {
+  width: 40px;
+  height: 40px;
+}
+
+.name {
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+.content {
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 30px;
+}
